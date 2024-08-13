@@ -25,27 +25,12 @@ Install packages:
 pip install -r requirements.txt
 ```
 
-
-Obtain an [API Key](https://www.alphavantage.co/support/#api-key) from Alphavantage. Then create a ".env" file in the root directory of the repo, and paste some contents in like this, but using your own api key:
-
-```sh
-# this is the ".env" file:
-
-ALPHAVANTAGE_API_KEY="__________"
-```
-
 ## Usage
 
-Unemployment report:
+Medicare Part D spending:
 
 ```sh
 python -m app.unemployment
-```
-
-Stocks report:
-
-```sh
-python -m app.stocks
 ```
 
 Run the web app (then view in the browser at http://localhost:5000/):
